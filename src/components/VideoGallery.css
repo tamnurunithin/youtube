@@ -1,0 +1,15 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.card {
+  cursor: pointer;
+}
+.thumb {
+  width: 100%; aspect-ratio: 16/9; object-fit: cover;
+  border-radius: 8px;
+}
+.title { margin: .4rem 0 0; font-size: .95rem; }
+.channel { color: #606060; font-size: .85rem; }
